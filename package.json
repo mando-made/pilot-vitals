@@ -1,0 +1,10 @@
+{
+  "name": "pilot-vitals",
+  "version": "1.0.0",
+  "description": "A terminal-style self-care dashboard reskinned as a mech cockpit readout. Inspired by notwaldorf/tiny-care-terminal.",
+  "private": true,
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "license": "MIT"
+}
