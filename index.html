@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PILOT VITALS // MK-1 COCKPIT READOUT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Oswald:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrap">
+  <div class="hud-header">
+    <div>
+      <div class="hud-title">PILOT <span>VITALS</span></div>
+      <div class="hud-sub">MK-1 COCKPIT READOUT · UNIT: UNASSIGNED</div>
+    </div>
+    <div class="hud-clock">
+      <span class="status-dot" id="status-dot"></span><span id="clock">STANDBY</span>
+    </div>
+  </div>
+
+  <div id="vitals-panels"></div>
+
+  <div class="panel" id="mission-timer-panel"></div>
+
+  <div class="log-panel" id="ops-log-panel"></div>
+
+  <div class="log-panel">
+    <div class="log-title">SYSTEM LOG</div>
+    <div id="log"></div>
+  </div>
+
+</div>
+
+<script src="config.js"></script>
+<script src="storage.js"></script>
+<script src="log.js"></script>
+<script src="vitals.js"></script>
+<script src="missionTimer.js"></script>
+<script src="opsLog.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
